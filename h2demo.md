@@ -57,8 +57,8 @@ Harist Islami | Java Developer
   spring.datasource.driverClassName=org.h2.Driver
   spring.datasource.username=sa
   spring.datasource.password=
-  spring.jpa.database-plateform=org.hibernate.dialect.H2Dialect
-  spring.jpa.properties.hibernate.dialect=org.org.hibernate.dialect.H2Dialect
+  spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+  spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.H2Dialect
   spring.jpa.hibernate.ddl-auto=update
 ```
 
@@ -134,29 +134,6 @@ jpa:
 <br>
 
 <small><em>Source : https://www.baeldung.com/maven-dependency-scopes</em></small>
-
----
-
-### Adding profiles in pom.xml
-
-<br>
-
-```xml
-  <profiles>
-    <profile>
-      <id>h2</id>
-      <dependencies>
-        <dependency>
-          <groupId>com.h2database</groupId>
-          <artifactId>h2</artifactId>
-        </dependency>
-      <dependecies>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-    </profile>
-  </profiles>
-```
 
 ---
 
