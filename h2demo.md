@@ -86,12 +86,6 @@ jpa:
 
 ---
 
-# <div style="text-align: center;">Easy right ? :thinking: </div>
-
-#### <div style="text-align: center;">Let's Coding </div>
-
----
-
 ## How to implement H2 Database in existing project
 
 ---
