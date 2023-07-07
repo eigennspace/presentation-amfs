@@ -146,7 +146,7 @@ jpa:
 ## Conclusion
 
 <li> H2 Database is one of the good in-memory database for doing unit-test
-<li> For the purpose testing, H2 Database must be provide in pom.xml with <b>scope test</b>
+<li> For the purpose testing, scope of H2 Database in pom.xml we set into <b>scope test</b>
 
 ---
 
