@@ -23,14 +23,14 @@ Harist Islami | Java Developer
 
 ---
 
-## WHAT WILL DO
+## AGENDA
 
-<li> H2 Database Demo In General
-<li> How to implement H2 Database in existing project
+<li> H2 Database In Spring Boot
+<li> How to implement H2 Database in existing Spring Boot project
 
 ---
 
-## H2 Database Demo In General
+## H2 Database In SpringBoot
 
 ---
 
@@ -86,7 +86,7 @@ jpa:
 
 ---
 
-## How to implement H2 Database in existing project
+## How to implement H2 Database in existing Spring Boot project
 
 ---
 
